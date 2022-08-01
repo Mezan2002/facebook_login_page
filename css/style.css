@@ -1,0 +1,163 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d2e0f8;
+  font-family: "Lato", sans-serif;
+}
+.neumorphic {
+  width: 500px;
+  height: 800px;
+  border-radius: 50px;
+  background: #e5eefe;
+  padding: 60px 30px 30px 30px;
+  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+}
+.neumorohic_img {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px #5f5f5f, 0px 0px 5px #e5eefe, 6px 6px 12px #9b9b9b,
+    -6px -6px 15px #ffffff;
+}
+.neumorohic_img img {
+  width: 100%;
+}
+.neumorphic_content {
+  text-align: center;
+  margin-top: 30px;
+}
+.neumorphic_content h3 {
+  font-size: 40px;
+  color: #0676e8;
+  letter-spacing: 1px;
+}
+.neumorphic_content p {
+  margin-top: 10px;
+  font-size: 25px;
+  color: #555;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.login_form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 60px 5px 5px 5px;
+}
+.login_form input {
+  width: 100%;
+  margin-left: 30px;
+  padding: 20px;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 22px;
+  color: #555;
+}
+.form_input {
+  position: relative;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+.login_form i {
+  color: #555;
+  position: absolute;
+  top: 25px;
+  left: 20px;
+}
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: #0676e8;
+  width: 100%;
+  height: 65px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+  transition: 0.5s;
+}
+button:hover {
+  background: #0055aa;
+}
+.forgot_pass {
+  text-align: center;
+  margin-top: 25px;
+}
+.forgot_pass a {
+  text-decoration: none;
+}
+.forgot_pass a:hover {
+  text-decoration: underline;
+}
+hr {
+  margin-top: 30px;
+}
+.creat_account {
+  text-align: center;
+  margin-top: 40px;
+}
+.creat_account a {
+  text-decoration: none;
+  background-color: #36a420;
+  padding: 15px 30px;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+}
+@media only screen and (max-width: 576px) {
+  .neumorphic {
+    width: 80%;
+  }
+  .neumorohic_img {
+    width: 30%;
+    height: 0;
+    margin-bottom: 40%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px #5f5f5f, 0px 0px 5px #e5eefe, 6px 6px 12px #9b9b9b,
+      -6px -6px 15px #ffffff;
+  }
+  #large_screen {
+    display: none;
+  }
+}
+@media only screen and (min-width: 578px) and (max-width: 767px) {
+  #small_screen {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  #small_screen {
+    display: none;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  #small_screen {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+  #small_screen {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1401px) and (max-width: 3500px) {
+  #small_screen {
+    display: none;
+  }
+}
